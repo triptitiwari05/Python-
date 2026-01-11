@@ -1,4 +1,15 @@
+#string slicing and using upper and lower
 name = "stringpython"
 print(name.upper())
 print(name.lower())
 print(name[0])
+
+#string and numeric values can operate together with *
+a = 5
+b = "@"
+txt = "3"
+print(a * (txt + b))
+a = "3"
+b = "#"
+c = 4
+print(c * (a + b))
